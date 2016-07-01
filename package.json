@@ -1,0 +1,16 @@
+{
+  "name": "@scola/deep",
+  "version": "0.0.0",
+  "description": "Deep Object Manipulation",
+  "repository": "github:scola84/node-deep",
+  "author": "M.C. van den Boogaart <scola@kvdb.name>",
+  "license": "MIT",
+  "main": "./dist/deep.js",
+  "jsnext:main": "./index.js",
+  "devDependencies": {
+    "rollup": "^0.26.3"
+  },
+  "scripts": {
+    "build": "rollup -i ./index.js -o ./dist/deep.js -f cjs"
+  }
+}
