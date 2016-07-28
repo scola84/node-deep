@@ -1,5 +1,3 @@
-'use strict';
-
 export default function set(source, key, value) {
   let i = 0;
 

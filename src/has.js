@@ -1,5 +1,3 @@
-'use strict';
-
 export default function has(source, key) {
   let result = source;
   let i = 0;

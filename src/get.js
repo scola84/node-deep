@@ -1,5 +1,3 @@
-'use strict';
-
 export default function get(source, key) {
   let value = source;
   let i = 0;

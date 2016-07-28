@@ -1,5 +1,3 @@
-'use strict';
-
 export default function remove(source, key) {
   let i = 0;
 

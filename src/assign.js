@@ -1,9 +1,4 @@
-'use strict';
-
-function isObject(value) {
-  return Boolean(value) &&
-    value.constructor.toString().match(/object/i);
-}
+import isObject from './helper/is-object';
 
 export default function assign(target, ...sources) {
   target = Object(target);
